@@ -1,4 +1,43 @@
-# Getting Started with Create React App
+# Poker Hand Project
+## Background
+You have just started work at ACME Gaming Inc and you have been tasked to complete  a digital version of 5 card poker.
+This is a project that an employee that has left failed to complete.
+
+The project simulates a deck of standard playing cards. The deck of cards consists of a group of card objects, with each
+card having a rank (Ace - King) and a suite (Diamonds, hearts, clubs and spades)
+
+You should be able to construct a hand, which can contain any number of cards, less than 52.
+With a hand of 5 cards, you should be able to retrieve a hand rank and also be able to compare two hands of 5 cards
+using comparators.  Details for the hand rankings can be found here: http://www.wsop.com/poker-hands/
+
+Thankfully, a lot of the groundwork has been completed by someone before you and only a few functions require completion.
+The project tests were completed first, so your task is simply to make all the tests pass.
+
+** NB **
+
+* You may change any part of the project you deem necessary. You may add or remove fields, method or classes.
+* You may change design elements you do not like.
+* You may ask clarifying question if needed.
+* You may add new tests.
+* Note that your solution will be evaluated against a more exhaustive list of tests, so think about missing test coverage and add tests you think are necessary.
+
+## Task 1 - Picking from the Deck
+The deck picking function in: `src/pokerhands/Deck.js` needs to be completed
+
+## Task 2 - Ranking the Hand
+The fiveCardHandRanker in: `src/pokerhands/HandRanker.js` does not do a great job of picking the correct hand rank. Please implement a better version of this.
+As stated above you may change any part of the codebase that you like.
+
+## Task 3 - Create a visualisation using React
+There is a start to a user interface that is all contained in the ```src/App.js```
+Use your creativity and design a visual representation for the deck, hands and the hand ranker results
+As stated above you may change any part of the codebase that you like
+
+## Task 4 - Stretch Goal
+After completing tasks 1, 2 and 3, add the feature to pick multiple hands and compare them to each other and display
+the winning hand
+
+## Installing the dependencies
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -16,55 +55,8 @@ You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+When all the tests pass, and you are happy with the state of the code, return the code to SprintHive.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Notes
+* If you find a bug or design issue with the existing code, fix it or change it as required and document this change.
+* State any assumptions you make
